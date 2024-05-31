@@ -5,7 +5,7 @@ class PostsController < ApplicationController
 
   def new
   end
-
+#Git 練習コメント
   def create
     Post.create(content: params[:content])
     redirect_to "/posts"
